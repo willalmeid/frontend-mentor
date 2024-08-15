@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Grey-700: hsl(0, 0%, 20%);
+    --Grey-800: hsl(0, 0%, 12%);
+    --Grey-900: hsl(0, 0%, 8%);
+
+    /* - Weights: 400, 600, 700 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Grey-900);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width: 80%;
+    max-width: 600px;
+    margin: 12vh auto;
+    background-color: var(--Grey-800);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 6rem;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+.name-nationality {
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h6 {
+    color: var(--Green);
+    font-weight: 600;
+}
+
+.description {
+    text-align: center;
+}
+
+.social-media__button {
+    width: 85%;
+    height: auto;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.link-button {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--Grey-700);
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+.link-button:hover {
+    color: black;
+    background-color: var(--Green);
+}
+
+.attribution {
+    width: 100%;
+    padding: 20px 0;
+    background-color: var(--Grey-800);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.attribution a {
+    color: var(--Green);
+}
+
+.attribution a:hover {
+    cursor: pointer;
+    color: hsl(75, 94%, 65%);
+}
+
+@media (min-width: 500px) {
+    .attribution {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
