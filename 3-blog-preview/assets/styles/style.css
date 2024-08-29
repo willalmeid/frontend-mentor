@@ -60,6 +60,7 @@ section {
 }
 
 section h1 {
+    width: 245px;
     font-size: 1.3em;
     font-weight: 800;
 }
@@ -125,5 +126,8 @@ section #paragrafo-principal {
 @media (min-height: 600px) {
     body {
         padding-top: 8%;
+    }
+    footer {
+        flex-direction: row !important;
     }
 }
