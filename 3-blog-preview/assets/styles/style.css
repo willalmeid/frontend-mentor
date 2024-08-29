@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+
+    --White: hsl(0, 0%, 100%);
+
+    --Gray-500: hsl(0, 0%, 42%);
+    --Gray-950: hsl(0, 0%, 7%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5% 20px 0;
+    background-color: var(--Yellow);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    width: 100%;
+    max-width: 420px;
+    margin-bottom: 50px;
+    padding: 25px;
+    color: var(--Gray-950);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-main img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section h1 {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+section h1:hover {
+    color: var(--Yellow);
+}
+
+section h3 {
+    width: 80px;
+    padding: 8px;
+    background-color: var(--Yellow);
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+
+section #publicacao {
+    font-size: 0.9em;
+}
+
+section #paragrafo-principal {
+    color: var(--Gray-500);
+}
+
+.informacoes-perfil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.informacoes-perfil img {
+    width: 40px;
+}
+
+.informacoes-perfil h2 {
+    font-weight: 800;
+}
+
+.attribution {
+    width: calc(100% + 40px);
+    padding: 8px 0;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+    color: hsl(228, 45%, 55%);
+}
+
+@media (min-height: 600px) {
+    body {
+        padding-top: 8%;
+    }
+}
