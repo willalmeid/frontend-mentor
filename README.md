@@ -7,7 +7,7 @@
 | :---: | :---:   | :---:  | :---:  | :---: | :---:     |
 | ✅ | Recipe Page | [Acessar](https://willalmeid.github.io/frontend-mentor/1-recipe-page/) | [Acessar](./1-recipe-page/) | [Acessar](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) | HTML e CSS |
 | ✅ | Social Links Profile | [Acessar](https://willalmeid.github.io/frontend-mentor/2-social-links-profile/) | [Acessar](./2-social-links-profile/) | [Acessar](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | HTML e CSS |
-| ✅ | Blog Preview Card | [Acessar](https://willalmeid.github.io/frontend-mentor/3-blog-preview/) | [Acessar](./3-blog-preview/) | [Acessar](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) | HTML e CSS |
+| ✅ | Blog Preview Card | [Acessar](https://willalmeid.github.io/frontend-mentor/3-blog-preview-card/) | [Acessar](./3-blog-preview-card/) | [Acessar](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) | HTML e CSS |
 
 
 <h2 align="center">Tecnologias Gerais 🤖</h2>
