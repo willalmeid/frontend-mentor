@@ -118,26 +118,28 @@ footer {
     width: 100%;
     margin-top: 10px;
     padding: 30px 0;
-    background-color: black;
+    background-color: hsl(14, 45%, 36%);
 
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.attribution {
+footer {
     font-size: 1rem;
     text-align: center;
-    color: white;
+    color: hsl(330, 100%, 98%);
 }
 
-.attribution a {
-    color: hsl(228, 45%, 44%);
+footer a {
+    color: hsl(330, 100%, 58%);
+    text-decoration: none;
 }
 
-.attribution a:hover {
+footer a:hover {
     cursor: pointer;
-    color: hsl(228, 45%, 40%);
+    text-decoration: underline;
+    color: hsl(330, 100%, 68%);
 }
 
 hr {

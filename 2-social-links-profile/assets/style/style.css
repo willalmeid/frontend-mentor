@@ -4,6 +4,7 @@
 
 :root {
     --Green: hsl(75, 94%, 57%);
+    --Green-hover: hsl(75, 94%, 67%);
 
     --White: hsl(0, 0%, 100%);
 
@@ -103,7 +104,7 @@ h6 {
     background-color: var(--Green);
 }
 
-.attribution {
+footer {
     width: 100%;
     padding: 20px 0;
     background-color: var(--Grey-800);
@@ -114,17 +115,19 @@ h6 {
     gap: 5px;
 }
 
-.attribution a {
+footer a {
     color: var(--Green);
+    text-decoration: none;
 }
 
-.attribution a:hover {
+footer a:hover {
     cursor: pointer;
-    color: hsl(75, 94%, 65%);
+    color: var(--Green-hover);
+    text-decoration: underline;
 }
 
 @media (min-width: 500px) {
-    .attribution {
+    footer {
         display: flex;
         flex-direction: row;
         align-items: center;

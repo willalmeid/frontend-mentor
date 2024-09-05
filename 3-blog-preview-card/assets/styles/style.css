@@ -4,6 +4,7 @@
 
 :root {
     --Yellow: hsl(47, 88%, 63%);
+    --Yellow-hover: hsl(47, 88%, 73%);
 
     --White: hsl(0, 0%, 100%);
 
@@ -102,12 +103,12 @@ section #paragrafo-principal {
     font-weight: 800;
 }
 
-.attribution {
+footer {
     width: calc(100% + 40px);
     padding: 8px 0;
     background-color: black;
     color: white;
-    font-size: 11px;
+    font-size: 0.9rem;
 
     display: flex;
     flex-direction: column;
@@ -115,12 +116,16 @@ section #paragrafo-principal {
     align-items: center;
     justify-content: center;
 }
-.attribution a {
-    color: hsl(228, 45%, 44%);
+
+footer a {
+    color: var(--Yellow);
+    text-decoration: none;
 }
 
-.attribution a:hover {
-    color: hsl(228, 45%, 55%);
+footer a:hover {
+    cursor: pointer;
+    color: var(--Yellow-hover);
+    text-decoration: underline;
 }
 
 @media (min-width: 500px) {
