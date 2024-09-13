@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    /* Primary */
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    --light-red-bg: hsla(0, 100%, 67%, 0.1);
+    --orangey-yellow-bg: hsla(39, 100%, 56%, 0.1);
+    --green-teal-bg: hsla(166, 100%, 37%, 0.1);
+    --cobalt-blue-bg: hsla(234, 85%, 45%, 0.1);
+
+    /* Gradient */
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+    --dark-gray-blue2: hsl(224, 30%, 27%, 0.6);
+
+    --font-main: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+    /* Weights: 500, 700, 800 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    color: white;
+    font-family: var(--font-main);
+    font-size: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-result {
+    height: 50%;
+    padding: 30px 0 50px 0;
+    background-image: linear-gradient(
+        var(--light-slate-blue),
+        var(--light-royal-blue)
+    );
+    border-radius: 0 0 35px 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-result h3 {
+    color: var(--light-lavender);
+    font-size: 1em;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(var(--violet-blue), var(--persian-blue));
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle h1 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.circle p {
+    font-size: 0.9em;
+    color: var(--light-lavender);
+}
+
+.section-result p {
+    width: 80%;
+    color: var(--light-lavender);
+    text-align: center;
+}
+
+.section-summary {
+    padding: 30px;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-sumary-item {
+    padding: 10px 25px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-red {
+    color: var(--light-red);
+    background-color: var(--light-red-bg);
+}
+
+.bg-yellow {
+    color: var(--orangey-yellow);
+    background-color: var(--orangey-yellow-bg);
+}
+
+.bg-green {
+    color: var(--green-teal);
+    background-color: var(--green-teal-bg);
+}
+
+.bg-blue {
+    color: var(--cobalt-blue);
+    background-color: var(--cobalt-blue-bg);
+}
+
+.section-sumary-item section {
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.section-sumary-item > p {
+    color: var(--dark-gray-blue2);
+    font-weight: 800;
+}
+
+strong {
+    color: var(--dark-gray-blue);
+}
+
+button {
+    padding: 15px;
+    color: white;
+    background-color: var(--dark-gray-blue);
+    border: none;
+    border-radius: 50px;
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-image: linear-gradient(
+        var(--light-slate-blue),
+        var(--light-royal-blue)
+    );
+}
+
+footer {
+    margin-top: 40px;
+    padding: 10px 0;
+    font-size: 0.8em;
+    color: var(--white);
+    background-color: var(--light-royal-blue);
+    /* text-align: center; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    position: relative;
+
+    color: var(--light-lavender);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--pale-blue);
+}
+
+footer a::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease;
+
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: var(--pale-blue);
+}
+
+footer a:hover::before {
+    width: 100%;
+}
