@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-pink: hsl(275, 100%, 97%);
+    --grayish-purple: hsl(292, 16%, 49%);
+    --grayish-purple-hover: hsl(292, 16%, 69%);
+    --dark-purple: hsl(292, 42%, 14%);
+    --dark-purple-hover: hsl(281, 83%, 54%);
+
+    --font-main: "Work Sans", Arial, sans-serif;
+    /* 400, 600, 700 */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--light-pink);
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--font-main);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    width: 100%;
+    height: 250px;
+    background: var(--dark-purple)
+        url("../assets/images/background-pattern-mobile.svg") no-repeat center
+        center/cover;
+}
+
+main {
+    width: 85%;
+    max-width: 600px;
+    margin-top: 12vh;
+    padding: 30px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px hsla(292, 42%, 14%, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.section-title h1 {
+    font-size: 2em;
+}
+
+section section.ask-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+section section.ask-item h3 {
+    padding: 10px 0;
+    color: var(--dark-purple);
+    font-size: 1.15em;
+}
+
+section section.ask-item h3:hover {
+    color: var(--dark-purple-hover);
+    cursor: pointer;
+}
+
+section section.ask-item img:hover {
+    cursor: pointer;
+}
+
+section.answers p {
+    margin: 15px 0 5px;
+    color: var(--grayish-purple);
+    font-size: 0.9em;
+}
+
+section.hidden {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    padding: 8px 0;
+    background-color: var(--dark-purple);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+footer p {
+    color: var(--white);
+    font-size: 0.8em;
+}
+
+footer a {
+    position: relative;
+    color: var(--grayish-purple);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--grayish-purple);
+}
+
+footer a::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease;
+
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: var(--grayish-purple-hover);
+}
+
+footer a:hover::before {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    div#background {
+        background: var(--dark-purple)
+            url("../assets/images/background-pattern-desktop.svg") no-repeat
+            center center/cover;
+    }
+
+    footer {
+        flex-direction: row !important;
+        gap: 8px;
+    }
+}
