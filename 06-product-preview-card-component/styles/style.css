@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    /* Primary */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* Neutral */
+    --white: hsl(0, 0%, 100%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --dark-grayish-blue-hover: hsl(228, 12%, 58%);
+
+    --font-title: "Fraunces", serif;
+    --font-principal: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--cream);
+    font-family: var(--font-principal);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    width: 93%;
+    max-width: 500px;
+    margin: 5% auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+div.image {
+    height: 300px;
+}
+
+div.image img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h3#nome-produto {
+    color: var(--dark-grayish-blue);
+    font-size: 0.8em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h1 {
+    color: var(--very-dark-blue);
+    font-size: 2.3em;
+    font-family: var(--font-title);
+    line-height: 35px;
+}
+
+section p {
+    color: var(--dark-grayish-blue);
+    font-size: 1em;
+    line-height: 25px;
+}
+
+div.preco {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+div.preco h2 {
+    color: var(--dark-cyan);
+    font-family: var(--font-title);
+    font-size: 2.2em;
+}
+
+div.preco h3#preco-antigo {
+    color: var(--dark-grayish-blue);
+    font-size: 0.9em;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+button {
+    width: 100%;
+    padding: 15px 0;
+    color: white;
+    background-color: var(--dark-cyan);
+    font-size: 1.01em;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 15px 0;
+    background-color: var(--very-dark-blue);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+footer p {
+    color: var(--dark-cyan);
+    font-size: 11px;
+}
+
+footer a {
+    position: relative;
+
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--dark-grayish-blue-hover);
+}
+
+footer a::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s ease;
+
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: var(--dark-grayish-blue-hover);
+}
+
+footer a:hover::before {
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 950px) {
+    main {
+        max-width: 650px;
+        height: 500px;
+        margin: 10% auto;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.image {
+        width: 55%;
+        height: 100%;
+    }
+
+    section {
+        width: 50%;
+        height: 100%;
+    }
+}
