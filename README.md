@@ -25,5 +25,5 @@ Obs.: Os projetos estão organizados do mais fácil ao mais difícil, conforme a
 - CSS
 - JavaScript
 
-<h2>Licença 📃</h2>
+<h2 align="center">Licença 📃</h2>
 Esse repositório está sob a licença MIT.
