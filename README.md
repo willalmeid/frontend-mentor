@@ -1,6 +1,7 @@
 <h1 align="center">Frontend Mentor</h1>
+<p align="justify">
  Este repositório contém minhas soluções para vários desafios do Frontend Mentor, uma plataforma que oferece projetos do mundo real para ajudar desenvolvedores a praticarem suas habilidades de front-end. Cada desafio é projetado para testar diferentes aspectos do desenvolvimento web, desde HTML e CSS até JavaScript e design responsivo.
-
+</p>
 <h2 align="center">Desafios</h2>
 
 <div align="center">
