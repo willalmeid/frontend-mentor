@@ -2,6 +2,8 @@
 <p align="justify">
  Este repositório contém minhas soluções para vários desafios do Frontend Mentor, uma plataforma que oferece projetos do mundo real para ajudar desenvolvedores a praticarem suas habilidades de front-end. Cada desafio é projetado para testar diferentes aspectos do desenvolvimento web, desde HTML e CSS até JavaScript e design responsivo.
 </p>
+
+
 <h2 align="center">Desafios</h2>
 
 <div align="center">
@@ -27,4 +29,6 @@ Obs.: Os projetos estão organizados do mais fácil ao mais difícil, conforme a
 - JavaScript
 
 <h2 align="center">Licença 📃</h2>
-Esse repositório está sob a licença MIT.
+<p>
+ Esse repositório está sob a licença MIT.
+</p>
