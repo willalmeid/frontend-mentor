@@ -1,10 +1,11 @@
-<h1 align="center">Frontend Mentor</h1>
+<h1 align="center"> Desafios - Frontend Mentor </h1>
+
 <p align="justify">
- Este repositório contém minhas soluções para vários desafios do Frontend Mentor, uma plataforma que oferece projetos do mundo real para ajudar desenvolvedores a praticarem suas habilidades de front-end. Cada desafio é projetado para testar diferentes aspectos do desenvolvimento web, desde HTML e CSS até JavaScript e design responsivo.
+	Este repositório contém minhas soluções para vários desafios do Frontend Mentor, uma plataforma que oferece projetos do mundo real para ajudar desenvolvedores a praticarem suas habilidades de front-end. Cada desafio é projetado para testar diferentes aspectos do desenvolvimento web, desde HTML e CSS até JavaScript e design responsivo.
 </p>
 
 
-<h2 align="center">Desafios</h2>
+<h2> ⚔️ Desafios </h2>
 
 <div align="center">
 
@@ -18,17 +19,19 @@
 | 06 | ✅ | Results Summary Component | [Acessar](https://willalmeid.github.io/frontend-mentor/06-product-preview-card-component) | [Acessar](./06-product-preview-card-component/) | [Acessar](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub) | HTML e CSS |
 
 
-Obs.: Os projetos estão organizados do mais fácil ao mais difícil, conforme a ordem do próprio site.
 </div>
 
+<p> Obs.: Os projetos estão organizados do mais fácil ao mais difícil, conforme a ordem do próprio site. </p>
 
-<h2 align="center">Tecnologias Gerais 🤖</h2>
+<h2> 🤖 Tecnologias Gerais </h2>
 
 - HTML
 - CSS
 - JavaScript
+- Git e Github
 
-<h2 align="center">Licença 📃</h2>
+<h2> 📃 Licença </h2>
+
 <p>
  Esse repositório está sob a licença MIT.
 </p>
