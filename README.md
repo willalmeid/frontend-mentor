@@ -22,7 +22,7 @@
 
 </div>
 
-<p> Obs.: Os projetos estão organizados do mais fácil ao mais difícil, conforme a ordem do próprio site. </p>
+<p> Obs.: Os projetos seguem a ordem de dificuldade original do Front-end Mentor. Embora o site atualize periodicamente o nível de complexidade dos desafios, mantive a estrutura e numeração iniciais para preservar a integridade dos links e diretórios. </p>
 
 <h2> 🤖 Tecnologias Gerais </h2>
 
