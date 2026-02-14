@@ -18,6 +18,7 @@
 | 05 | ✅ | Results Summary Component | [Acessar](https://willalmeid.github.io/frontend-mentor/05-results-summary-component/) | [Acessar](./05-results-summary-component/) | [Acessar](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) | HTML e CSS |
 | 06 | ✅ | Product Preview Card Component | [Acessar](https://willalmeid.github.io/frontend-mentor/06-product-preview-card-component) | [Acessar](./06-product-preview-card-component/) | [Acessar](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | HTML e CSS |
 | 07 | ✅ | Qr-code Component | [Acessar](https://willalmeid.github.io/frontend-mentor/07-qr-code-component-main) | [Acessar](./07-qr-code-component-main/) | [Acessar](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | HTML e CSS |
+| 08 | ✅ | NFT Preview Card | [Acessar](https://willalmeid.github.io/frontend-mentor/08-nft-preview-card-component) | [Acessar](./08-nft-preview-card-component/) | [Acessar](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) | HTML e CSS |
 
 
 </div>
