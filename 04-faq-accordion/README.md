@@ -1,11 +1,20 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - FAQ Accordion
 
-![Design preview for the Recipe page coding challenge](./preview.jpg)
+Esta é a minha solução para o desafio **FAQ Accordion** do Frontend Mentor.
 
-## Welcome! 👋
+## 🚀 O Projeto
 
-Thanks for checking out this front-end coding challenge.
+O objetivo deste desafio foi construir um componente de acordeão funcional focado na construção de páginas semânticas com a utilização das tags do HTML5, arquitetura CSS e manipulação do DOM para criar uma interface interativa e acessível.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### 📸 Preview do Resultado
+<div align="center">
+  <img src="./preview.jpg" alt="Preview do Projeto">
+</div>
 
-The access link is below the repository biography
+## 🧠 O que eu aprendi
+Neste projeto, aprofundei meus conhecimentos em eventos de clique e na alternância de classes CSS para criar animações de transição suaves.
+
+## 🛠️ Tecnologias Utilizadas:
+- HTML5
+- CSS3
+- JavaScript

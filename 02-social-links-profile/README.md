@@ -1,11 +1,19 @@
-# Frontend Mentor - Social links profile
+# Frontend Mentor - Social Links Profile
 
-![Design preview for the Social links profile coding challenge](./preview.jpg)
+Esta é a minha solução para o desafio **Social Links Profile** do Frontend Mentor.
 
-## Welcome! 👋
+## 🚀 O Projeto
 
-Thanks for checking out this front-end coding challenge.
+O objetivo deste desafio foi construir um agregador de links de perfil social focado na construção de páginas semânticas com a utilização das tags do HTML5 e em boas práticas de arquitetura CSS, visando a organização de componentes em layouts responsivos.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### 📸 Preview do Resultado
+<div align="center">
+  <img src="./preview.jpg" alt="Preview do Projeto">
+</div>
 
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+## 🧠 O que eu aprendi
+Neste projeto, foquei em aprofundar o uso do **Flexbox** para centralização de componentes em ambos os eixos e na estilização de elementos interativos (`<a>`) para criar estados de hover consistentes.
+
+## 🛠️ Tecnologias Utilizadas:
+- HTML5
+- CSS3

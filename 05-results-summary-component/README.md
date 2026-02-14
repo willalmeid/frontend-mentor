@@ -1,11 +1,19 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Results Summary Component
 
-![Design preview for the Recipe page coding challenge](./preview.jpg)
+Esta é a minha solução para o desafio **Results Summary Component** do Frontend Mentor.
 
-## Welcome! 👋
+## 🚀 O Projeto
 
-Thanks for checking out this front-end coding challenge.
+O objetivo deste desafio foi construir um componente de resumo de resultados focado na construção de páginas semânticas com a utilização das tags do HTML5 e em boas práticas de arquitetura CSS, explorando o uso de gradientes e layouts responsivos complexos.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### 📸 Preview do Resultado
+<div align="center">
+  <img src="./preview.jpg" alt="Preview do Projeto">
+</div>
 
-The access link is below the repository biography
+## 🧠 O que eu aprendi
+Neste projeto, aprofundei meus conhecimentos na criação de gradientes lineares e circulares complexos para o fundo do componente. Pratiquei a organização de classes CSS específicas para gerenciar cores de fundo e de texto diferentes para cada item da lista de sumário, mantendo o código limpo e escalável. Também foquei na responsividade, garantindo que o card se adapte perfeitamente de layouts horizontais (desktop) para verticais (mobile).
+
+## 🛠️ Tecnologias Utilizadas:
+- HTML5
+- CSS3

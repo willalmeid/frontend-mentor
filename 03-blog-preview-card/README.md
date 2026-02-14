@@ -1,11 +1,19 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Blog Preview Card
 
-![Design preview for the Recipe page coding challenge](./preview.jpg)
+Esta é a minha solução para o desafio **Blog Preview Card** do Frontend Mentor.
 
-## Welcome! 👋
+## 🚀 O Projeto
 
-Thanks for checking out this front-end coding challenge.
+O objetivo deste desafio foi construir um card de pré-visualização de postagem de blog focado na construção de páginas semânticas com a utilização das tags do HTML5 e em boas práticas de arquitetura CSS, explorando efeitos visuais de profundidade e estados interativos.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+### 📸 Preview do Resultado
+<div align="center">
+  <img src="./preview.jpg" alt="Preview do Projeto">
+</div>
 
-The access link is below the repository biography
+## 🧠 O que eu aprendi
+Neste projeto, aperfeiçoei a aplicação de **box-shadow** para criar o efeito de profundidade característico do design. Também pratiquei o controle de **Border Radius** em diferentes elementos e a manipulação de estados de hover para garantir que o título do card se comporte como um link interativo claro para o usuário.
+
+## 🛠️ Tecnologias Utilizadas:
+- HTML5
+- CSS3
