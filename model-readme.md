@@ -8,7 +8,7 @@ O objetivo deste desafio foi construir um [Descrição Curta do Componente] foca
 
 ### 📸 Preview do Resultado
 <div align="center">
-  ![Preview do Projeto](./design/preview.jpg) 
+  <img src="./design/preview.jpg" alt="Preview do Projeto">
 </div>
 
 ## 🧠 O que eu aprendi
