@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 500px) {
+	body {
+		padding: 20% 0 30%;
+	}
+
+	main {
+		padding: 20px;
+
+		gap: 20px;
+
+		.container-image .image-overlay .icon-view {
+			width: 45px;
+			height: 45px;
+		}
+
+		.container-information {
+			gap: 16px;
+
+			.container-information__title {
+				font-size: 1.4rem;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+
+			.price-and-time {
+				gap: 10px;
+				flex-wrap: wrap;
+
+				span,
+				p {
+					font-size: 0.9rem;
+				}
+			}
+		}
+
+		.creator-information {
+			gap: 12px;
+
+			img {
+				width: 35px;
+				height: 35px;
+			}
+
+			span {
+				font-size: 0.9rem;
+			}
+		}
+	}
+
+	footer {
+		font-size: 0.8rem;
+
+		flex-direction: column;
+		gap: 2px;
+	}
+}
