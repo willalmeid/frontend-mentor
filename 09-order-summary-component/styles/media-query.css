@@ -1,0 +1,39 @@
+@media (max-width: 450px) {
+	.background {
+		background-image: url('../images/pattern-background-mobile.svg');
+		height: 30vh;
+	}
+
+	.order-card {
+		width: 85%;
+		margin-top: 0;
+
+		gap: 25px;
+
+		.order-card__content {
+			padding: 0 24px;
+
+			gap: 20px;
+
+			h1 {
+				font-size: 1.5rem;
+			}
+		}
+
+		.plan-details {
+			padding: 15px;
+
+			flex-direction: column;
+			gap: 15px;
+
+			.plan-details__info {
+				flex-direction: column;
+				text-align: center;
+			}
+		}
+	}
+
+	.order-card__actions button {
+		width: 90%;
+	}
+}

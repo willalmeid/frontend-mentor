@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+	--blue-100: hsl(225, 100%, 94%);
+	--blue-700: hsl(245, 75%, 52%);
+	--blue-700-transparent: hsl(245, 75%, 52%, 0.8);
+
+	--blue-50: hsl(225, 100%, 98%);
+	--gray-600: hsl(224, 23%, 55%);
+	--blue-950: hsl(223, 47%, 23%);
+
+	--font-main: 'Red Hat Display';
+	/* Weights: 500, 700, 900 */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	position: relative;
+
+	width: 100%;
+	height: 100vh;
+	font-family: var(--font-main);
+	color: var(--gray-600);
+	background-color: var(--blue-100);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 45vh;
+	background-image: url('../images/pattern-background-desktop.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	z-index: -1;
+}
+
+.order-card {
+	width: 90%;
+	max-width: 450px;
+	margin-top: -10vw;
+	padding-bottom: 40px;
+	background-color: white;
+	border-radius: 25px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+
+	.order-card__hero {
+		border-radius: 25px 25px 0 0;
+	}
+
+	.order-card__content {
+		padding: 0 40px;
+		text-align: center;
+
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+
+		h1 {
+			font-weight: 900;
+			color: var(--blue-950);
+		}
+
+		p {
+			text-align: center;
+		}
+
+		.plan-details {
+			background-color: var(--blue-50);
+			padding: 5px 0;
+
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+
+			.plan-details__info {
+				display: flex;
+				flex-direction: row;
+				gap: 15px;
+
+				.plan-details__text {
+					display: flex;
+					flex-direction: column;
+					gap: 4px;
+
+					p {
+						font-weight: 900;
+						color: var(--blue-950);
+					}
+				}
+			}
+
+			.plan-details__link {
+				font-weight: 900;
+				text-decoration: underline;
+				color: var(--blue-700);
+				cursor: pointer;
+
+				&:hover {
+					color: var(--blue-700-transparent);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	.order-card__actions {
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+
+		button {
+			width: 80%;
+			padding: 16px;
+			font-weight: 900;
+			border: none;
+			border-radius: 12px;
+			cursor: pointer;
+		}
+
+		.button--primary {
+			color: white;
+			background-color: var(--blue-700);
+
+			&:hover {
+				background-color: var(--blue-700-transparent);
+			}
+		}
+
+		.button--ghost {
+			color: var(--gray-600);
+			background-color: white;
+
+			&:hover {
+				color: var(--blue-950);
+			}
+		}
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 100%;
+	padding: 1em;
+	font-size: 0.9em;
+	text-align: center;
+	color: var(--gray-600);
+	background-color: var(--blue-950);
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+
+	a {
+		position: relative;
+
+		color: var(--blue-50);
+
+		&::before {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			transition: all 0.5s ease;
+
+			content: '';
+			width: 100%;
+			height: 1px;
+			background-color: var(--blue-50);
+			transform: scaleX(0);
+		}
+
+		&:hover {
+			color: var(--blue-100);
+
+			&::before {
+				transform: scaleX(1);
+			}
+		}
+	}
+}
