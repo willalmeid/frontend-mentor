@@ -1,39 +1,51 @@
-<h1 align="center"> Desafios - Frontend Mentor </h1>
+<h1 align="center"> ⚔️ Frontend Mentor - Challenges </h1>
 
 <p align="justify">
-	Este repositório contém minhas soluções para vários desafios do Frontend Mentor, uma plataforma que oferece projetos do mundo real para ajudar desenvolvedores a praticarem suas habilidades de front-end. Cada desafio é projetado para testar diferentes aspectos do desenvolvimento web, desde HTML e CSS até JavaScript e design responsivo.
+  Este repositório é o meu laboratório pessoal de desenvolvimento front-end. Aqui centralizo minhas soluções para os desafios da plataforma <strong>Frontend Mentor</strong>, focando em escrever código limpo, semântico e com arquiteturas CSS modernas. O objetivo é evoluir do básico ao avançado, consolidando conceitos de acessibilidade, responsividade e lógica de programação.
 </p>
 
+<br>
 
-<h2> ⚔️ Desafios </h2>
+<p align="center">
+  <a href="https://www.frontendmentor.io/profile/willalmeid">
+    <img src="https://img.shields.io/badge/Meu%20Perfil-Frontend%20Mentor-3e54a3?style=flat-square&logo=frontend-mentor" alt="Perfil Frontend Mentor">
+  </a>
+</p>
+
+<br>
+
+---
+
+## 📂 Galeria de Desafios
 
 <div align="center">
 
-| N° | Status | Projeto | Demo | Código-fonte | Layout | Stack |
-| :---: | :---: | :---:   | :---:  | :---:  | :---: | :---:     |
-| 01 | ✅ | Recipe Page | [Acessar](https://willalmeid.github.io/frontend-mentor/01-recipe-page/) | [Acessar](./01-recipe-page/) | [Acessar](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm) | HTML e CSS |
-| 02 | ✅ | Social Links Profile | [Acessar](https://willalmeid.github.io/frontend-mentor/02-social-links-profile/) | [Acessar](./02-social-links-profile/) | [Acessar](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ) | HTML e CSS |
-| 03 | ✅ | Blog Preview Card | [Acessar](https://willalmeid.github.io/frontend-mentor/03-blog-preview-card/) | [Acessar](./03-blog-preview-card/) | [Acessar](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS) | HTML e CSS |
-| 04 | ✅ | FAQ Accordion | [Acessar](https://willalmeid.github.io/frontend-mentor/04-faq-accordion/) | [Acessar](./04-faq-accordion/) | [Acessar](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz) | HTML, CSS e JavaScript |
-| 05 | ✅ | Results Summary Component | [Acessar](https://willalmeid.github.io/frontend-mentor/05-results-summary-component/) | [Acessar](./05-results-summary-component/) | [Acessar](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV) | HTML e CSS |
-| 06 | ✅ | Product Preview Card Component | [Acessar](https://willalmeid.github.io/frontend-mentor/06-product-preview-card-component) | [Acessar](./06-product-preview-card-component/) | [Acessar](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) | HTML e CSS |
-| 07 | ✅ | Qr-code Component | [Acessar](https://willalmeid.github.io/frontend-mentor/07-qr-code-component-main) | [Acessar](./07-qr-code-component-main/) | [Acessar](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) | HTML e CSS |
-| 08 | ✅ | NFT Preview Card | [Acessar](https://willalmeid.github.io/frontend-mentor/08-nft-preview-card-component) | [Acessar](./08-nft-preview-card-component/) | [Acessar](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U) | HTML e CSS |
-
+| N° | Projeto | Nível | Stack | Demo | Código |
+| :---: | :--- | :---: | :--- | :---: | :---: |
+| 01 | Recipe Page | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/01-recipe-page/) | [💻](./01-recipe-page/) |
+| 02 | Social Links Profile | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/02-social-links-profile/) | [💻](./02-social-links-profile/) |
+| 03 | Blog Preview Card | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/03-blog-preview-card/) | [💻](./03-blog-preview-card/) |
+| 04 | FAQ Accordion | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/04-faq-accordion/) | [💻](./04-faq-accordion/) |
+| 05 | Results Summary | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/05-results-summary-component/) | [💻](./05-results-summary-component/) |
+| 06 | Product Preview Card | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/06-product-preview-card-component) | [💻](./06-product-preview-card-component/) |
+| 07 | QR Code Component | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/07-qr-code-component-main) | [💻](./07-qr-code-component-main/) |
+| 08 | NFT Preview Card | Newbie | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" height="25"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" height="25"> | [🌐](https://willalmeid.github.io/frontend-mentor/08-nft-preview-card-component) | [💻](./08-nft-preview-card-component/) |
 
 </div>
 
-<p> Obs.: Os projetos seguem a ordem de dificuldade original do Front-end Mentor. Embora o site atualize periodicamente o nível de complexidade dos desafios, mantive a estrutura e numeração iniciais para preservar a integridade dos links e diretórios. </p>
+<br>
 
-<h2> 🤖 Tecnologias Gerais </h2>
+---
 
-- HTML
-- CSS
-- JavaScript
-- Git e Github
+## 🛠️ Tecnologias e Ferramentas
 
-<h2> 📃 Licença </h2>
+- **Linguagens:** HTML5, CSS3, JavaScript (ES6+).
+- **Versionamento:** Git & Conventional Commits.
 
-<p>
- Esse repositório está sob a licença MIT.
-</p>
+<br>
+
+---
+
+## 📃 Licença
+
+Este repositório está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
